@@ -1,0 +1,63 @@
+*/*Importação de  fonte*/ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+font-family: 'Lato', cursive;
+{
+    margin: auto;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Lato', cursive;
+}
+#menu {/*Jogo da velha no CSS ele puxa o menu do HTML*/
+    background-color: aquamarine;
+    font-family: 'Lato', cursive;
+}
+#menu ul{
+    max-width: 800px; /*para ajustar o cabeçario do menu EX: usar 1500px*/
+    list-style: none;
+    padding: 0px;
+    font-family: 'Lato', cursive;
+}
+#menu ul li {
+    display: inline ;
+    font-family: 'Lato', cursive;
+}
+#menu ul li a {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background.4s;
+    font-family: 'Lato', cursive;
+}
+#menu ul li a:hover { /*para mudar os blocos do menu*/
+    background-color: blue; 
+    font-family: 'Lato', cursive;
+}
+#menu ul li:first-child a { /*para mudar para a primeira caixa #menu ul li:last-child a, last é ultimo e First é primeiro*/
+    background-color: brown;
+    font-family: 'Lato', cursive;
+}
+  
+body{
+    background-color:rgb(108, 180, 185);
+}
+
+/*Estrutura do footer*/
+.rodape {/*para puxar uma class no HTML se usa ponto final*/
+    background-color: red; /*para mudar o fundo*/
+    clear: both; /*para limpar*/
+    padding: 30px;
+    color: green;/*cor da letras*/
+    font-size: 15px;/*tamanho das letras, sempre em pixels*/
+    bottom: 0; /*baixo*/
+    position: fixed; /*posição do rodape*/
+    width: 100%; /*para ajustar o rodape no tamanho da tela*/
+
+}
+.icones li {
+    display: inline-block;
+    float: right; /*Para ajustar as imagens do texto para direita, esqueda , alinhamento , etc*/
+    /*o texto não movel porque o texto não estava dentro de li*/
+    width: 200px; /*O espacamento entre os icones*/
+    height: 50px;/*altura da caixa */
+}

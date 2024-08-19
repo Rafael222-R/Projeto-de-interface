@@ -1,0 +1,60 @@
+*
+{
+margin: auto;
+padding: 0 ;
+box-sizing: border-box; 
+}
+
+body {
+    background-color:rgb(58, 141, 113);
+       border-right:#0905e0 solid 1px;
+    border-left: #0905e0 solid 1px;
+}
+
+h1,h3{
+    color: gold;
+}
+p  {
+   color:#0905e0;
+   text-align: center;
+   font-size: 15px;
+   line-height: 30px;
+   
+}
+ul {
+    color: #0905e0;
+    
+}
+
+label {
+        color:#0905e0;
+}
+
+h2,h4 {
+    color: rgb(3, 3, 3) ;
+    text-align: center;
+}
+
+    
+
+.footer{
+
+    background-color:#0905e0; /*para mudar o fundo*/
+    clear: both; /*para limpar*/
+    padding: 30px;
+    color: black;/*cor da letras*/
+    font-size: 15px;/*tamanho das letras, sempre em pixels*/
+    bottom: 0; /*baixo*/
+    position: static; /*posição do rodape*/
+    width: 100%; /*para ajustar o rodape no tamanho da tela*/
+    
+}
+.icones_footer li {
+    display: inline-block;
+    float: right; /*Para ajustar as imagens do texto para direita, esqueda , alinhamento , etc*/
+    /*o texto não movel porque o texto não estava dentro de li*/
+    width: 50px; /*O espacamento entre os icones*/
+    height: 50px;/*altura da caixa */
+}
+
+

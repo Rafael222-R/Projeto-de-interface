@@ -1,0 +1,50 @@
+*
+{
+margin: auto;
+padding: 0 ;
+box-sizing: border-box;
+
+}
+
+body{
+   
+    border-right:#0905e0 solid 1px;
+    border-left: #0905e0 solid 1px;
+
+    
+}
+p{
+
+    text-align: justify;
+    margin: 25px;
+}
+
+.video { 
+    
+   
+    font-size: 15px;
+    align-items:center;
+}
+
+
+
+.footer{
+
+    background-color:#0905e0; /*para mudar o fundo*/
+    clear: both; /*para limpar*/
+    padding: 30px;
+    color: black;/*cor da letras*/
+    font-size: 15px;/*tamanho das letras, sempre em pixels*/
+    bottom: 0; /*baixo*/
+    position: static; /*posição do rodape*/
+    width: 100%; /*para ajustar o rodape no tamanho da tela*/
+    
+}
+.icones_footer li {
+    display: inline-block;
+    float: right; /*Para ajustar as imagens do texto para direita, esqueda , alinhamento , etc*/
+    /*o texto não movel porque o texto não estava dentro de li*/
+    width: 50px; /*O espacamento entre os icones*/
+    height: 50px;/*altura da caixa */
+}
+

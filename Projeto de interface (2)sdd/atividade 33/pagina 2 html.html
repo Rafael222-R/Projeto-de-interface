@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Meta charset="utf-8">
+        <tittle>Cadastro no site</tittle>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <h2 aling="center">formulario</h2>
+        <h3>para a</h3>
+        <h4>inscrição no site</h4>
+ <!--formulário-->
+ <form action="arquivo.sql" method="post">
+    <p>Nome: <input type="text" name="Nome"
+        placeholder="Coloque seu nome"/> </p>
+    <p>Sobrenome:<input type="text" name="Nome"
+         placeholder="Complete seu sobrenome"/> </p>
+ 
+     <p>Senha: <input type="password" name="senha" maxlength="6"/>
+      <br>(a senha deve ter no máximo 6 caracteres)<bn/>
+   </p>
+   
+     <p>CPF: <input type="text" name="Nome"
+      placeholder="Coloque seu CPF"/> </p>
+    
+     <P>Data de Nascimento <input type="date" name="dataNasc"/></P>
+     
+     <p>Email: <input type="email" name="email" placeholder="Coloque seu Email"/></p>
+     
+     <p>telefone: <input type="tel" name="tel" 
+        placeholder="(00)00000-0000" maxlength="14"/></p>
+     
+     <p>Idade: <input type="number" name="idade"/></p>
+
+     <p>Endereço: <input type="text" name="Nome"/> </p>
+     <!--Estretutura Select-->
+
+     <p>Time:
+     <select>
+        <option></option>
+        <option value="">Bahia</option>
+        <option value="">Vasco</option>
+        <option value="">Água Santa</option>
+        <option value="">Ceilândia</option>
+        <option value="">Corinthians</option>
+     </select> 
+     <!--Estrutura do valor sexo-->
+     </p> 
+     <p>sexo:
+      <input type="radio" name="sexo" volue="1"/>Feminimo
+      <input type="radio" name="sexo" volue="2"/>Maculino
+      <input type="radio" name="sexo" volue="3"/>Outros
+     </p>  
+     <!--Comantários-->
+     </p>
+     <p> <input type="checkbox" name="termo" value=""/>Declaro aceitar os termos!!!</p>
+     <p> <input type="checkbox" name="termo" value=""/>Quero receber noticias do site!!!</p>
+     <p> 
+        <input type="reset" value="limpar" name="limpar"/>
+        <input type="submit" value="enviar" name="enviar"/> 
+     </p>     
+     <p>Comentarios: <br><textarea name="comentarios"
+      cols="50" rows="4"></textarea><br>
+
+
+ </form>
+    <!--formulario com caixas-->
+    <fieldset>
+        <legend>Já possuo cadastro</legend>
+        <label>Email: <input type="text" name="Nome"
+            placeholder="Coloque seu Email ou CPF"/> </label> <!--é a mesma de options-->
+        
+         <label>Senha: <input type="password" name="senha" maxlength="6"/>(a senha deve ter no máximo 6 caracteres)</label>
+        
+    
+
+    
+    
+    
+    </fieldset>
+
+        
+    </body>
+
+
+</html>
